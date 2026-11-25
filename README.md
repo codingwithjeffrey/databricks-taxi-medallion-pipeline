@@ -22,7 +22,7 @@ MERGE, DESCRIBE HISTORY, time travel, RESTORE, schema enforcement, OPTIMIZE
 1. [01_bronze](notebooks/01_bronze.ipynb): ingest raw data into a Delta table
 2. [02_silver](notebooks/02_silver.ipynb): validation, quarantine, deduplication, derived columns
 3. [03_gold](notebooks/03_gold.ipynb): business-level aggregates
-4. [04_delta_demo](notebooks/04_delta_demo.ipynb): MERGE, time travel, schema enforcement, RESTORE, OPTIMIZE
+4. [04_delta_demo](notebooks/04_delta_demo.ipynb): MERGE, time travel, schema enforcement, RESTORE, OPTIMIZE and % of quarantined rows
 
 ## Tech stack
 Databricks Free Edition (serverless), PySpark, Spark SQL, Delta Lake, Unity Catalog, Databricks Jobs
